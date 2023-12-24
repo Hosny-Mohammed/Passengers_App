@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(52, 48, 48, 1);
+}
+#Logo{
+    color: rgba(233, 227, 227, 1);
+    font-size: 7vw;
+    margin-top: 30vw;
+    margin-left:12%;
+}
+div{
+    border: 2px solid;
+    border-radius: 20px;
+    width: 80vw;
+    height: 70vw;
+    margin-left:.25vw;
+   align-items: center;
+   padding-right: 15vw;
+}
+ul{
+    list-style-type: none;
+    position: absolute;
+    margin-left: 9vw;
+    margin-bottom: 95vw;
+}
+li{
+    padding-bottom: 10vw;
+
+}
+.buttons{
+    display: block;
+    background-color: transparent;
+    width: 60vw;
+    height: 12vw;
+    color: white;
+    font-size: 6vw;
+    border: 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    font-size: 5vw;
+}
+.buttons:hover{
+    border: 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    font-size: 5vw;
+}

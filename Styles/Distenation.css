@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(52, 48, 48, 1);
+}
+#Logo{
+    color: rgba(233, 227, 227, 1);
+    font-size: 7vw;
+    margin-top: 12vw;
+    margin-left:21%;
+}
+.TextBox{
+    display: flex;
+    height: 10vw;
+    width: 65vw;
+    margin-left: 15vw;
+    margin-top: 5vw;
+    border: 1px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 6vw;
+}
+#map{
+    margin-top: 6vw;
+    border: 2px solid;
+    height:95vw;
+    width: 92vw;
+    padding-left: 3vw;
+    padding-top: 2vw;
+    border-radius: 20px;
+}
+#drivers{
+    border: 2px solid;
+    border-radius: 20px;
+    width: 80vw;
+    height: auto;
+    margin-left:.25vw;
+   align-items: center;
+   padding-right: 15vw;
+   margin-top:7vw;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    background-color: white;
+    height: 20vw;
+    width: 80vw;
+    margin-left: -2.5vw;
+    border: 1px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+li img{
+    width: 20vw;
+    height: 20vw;
+    border: 1px;
+    border-radius: 15vw;
+}
+.name{
+    position: absolute;
+}
+#from{
+    position: absolute;
+    margin-top: 25px;
+}
+#to{
+    position: absolute;
+    margin-top: 50px;
+}
+.btn{
+    position: absolute;
+    margin-left:35vw ;
+    margin-top: 10px;
+    color: white;
+    border: 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 5vw;
+    background-color: rgba(74, 144, 226, 1);
+}

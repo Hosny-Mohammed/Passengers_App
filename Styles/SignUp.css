@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(52, 48, 48, 1);
+}
+#Logo{
+    color: rgba(233, 227, 227, 1);
+    font-size: 7vw;
+    margin-top: 40vw;
+    margin-left:12%;
+}
+#Name_of_page{
+    color: rgba(233, 227, 227, 1);
+    font-size: 7vw;
+    margin-left: 35vw;
+
+}
+.TextBox{
+    margin-left: 15vw;
+    font-size: 5vw;
+    height: 10vw;
+    border: 1px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#SignUP_btn{
+    background-color: rgba(74, 144, 226, 1);
+    color: white;
+    width: 50vw;
+    height: 10vw;
+    margin-left: 22vw;
+    border: 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    font-size: 5vw;
+}
+#SignIn_btn{
+    color: white;
+    background-color: transparent;
+    border: 1px solid; /* Add a border for visibility */
+    border-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 4vw;
+    margin-left: 35vw ;
+    margin-top: 12vw;
+}
+#SignIn_btn:hover{
+    background-color: rgba(74, 144, 226, 1);
+    border: 1px;
+    border-radius: 20px;
+}
