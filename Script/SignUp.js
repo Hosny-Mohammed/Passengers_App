@@ -30,7 +30,7 @@ document.getElementById("SignUP_btn").addEventListener("click", function() {
         // Add the new user to the list (replace this with your actual sign-up logic)
         userList.push({ email, password });
         alert("Sign Up successful");
-        window.location.assign("Users.html")
+        window.location.assign("Select_Disabilities.html")
     }
 });
 
